@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fileshare-container {
+    background-image: url('https://img.freepik.com/free-vector/flat-blue-design-image-upload-landing-pages_23-2148274066.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+}
+
+.fileshare-container .img {
+    /*width: 50%; */
+}
+
+.fileshare-container .wrapper {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background: transparent;
+    backdrop-filter: blur(40px);
+    border: 2px solid rgb(120, 186, 240);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fileshare-container h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #445A6F;
+    margin: 40px 0;
+}
+
+.fileshare-container input {
+    margin: 20px 0;
+    width: 300px;
+    padding: 8px;
+}
+
+.fileshare-container input:focus-visible {
+    outline: none;
+}
+
+.fileshare-container button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #445A6F;
+    border: 1px solid #445A6F;
+    color: #fff;
+    font-size: 20px;
+    margin: 30px 0;
+}

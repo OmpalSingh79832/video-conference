@@ -1,0 +1,164 @@
+.pay-container {
+    background-image: url("../../../assets/pay.webp");
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.pay-content {
+    min-width: 480px;
+    height: fit-content;
+    width: fit-content;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+    box-shadow: -12px -12px 14px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    gap: 30px;
+    color: #000;
+}
+
+.qr {
+    display: flex;
+    flex-direction: column;
+}
+
+.qr-content h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 13px;
+}
+
+.qr p {
+    padding-left: 10px;
+    /* color: aliceblue; */
+    font-weight: 500;
+}
+
+.qr p span {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.qr img {
+    width: 200px;
+    padding: 10px;
+}
+
+.pcard-content h1 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 13px;
+}
+
+.email {
+    display: flex;
+    background-color: rgb(201, 203, 205);
+    /* padding: 5px; */
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 270px;
+}
+
+.email label {
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-left: 7px;
+    font-size: 12px;
+}
+
+.email input {
+    width: 221px;
+    background-color: rgb(201, 203, 205);
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-left: 2px;
+}
+
+.email input:focus {
+    /* background-color: rgb(201, 203, 205); */
+    /* border: none;
+    outline: none; */
+}
+
+.card-info {
+    width: 270px;
+    margin-top: 10px;
+}
+
+.card-info input {
+    padding: 5px;
+    width: 270px;
+}
+
+.card-info1 {
+    width: 270px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.card-info1 input {
+    width: 135px;
+    padding: 5px;
+}
+
+.card-name {
+    margin-top: 10px;
+}
+
+.card-name input {
+    width: 270px;
+    padding: 5px;
+}
+
+.card-country {
+    margin-top: 10px;
+}
+
+.card-country select {
+    width: 270px;
+    padding: 5px;
+}
+
+.pcard-content input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    /* outline: none; */
+}
+
+.pcard-content input:focus {
+    /* border: none; */
+    outline: none;
+}
+
+.pcard-content button {
+    margin-top: 10px;
+    background-color: blue;
+    width: 270px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.money p {
+    font-size: 19px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.rec {
+    /* width: 100px; */
+}

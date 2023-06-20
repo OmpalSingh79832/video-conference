@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.App {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(150, 152, 154); */
+    background-image: url("../../assets/back.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-container {
+    /* padding: 10px; */
+    margin: 15px;
+    width: 250px;
+    height: 430px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    background-color: white;
+    transition: 0.4s ease-in;
+    border-radius: 8px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.con {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: wheat;
+    padding: 19px;
+    border-radius: 11px 69px 49px 34px;
+    color: green;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.card-container:hover {
+    transform: scale(1.10);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.image-container img {
+    overflow: hidden;
+    height: 200px;
+    background-position: center;
+}
+
+.card-content {
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+    font-size: 19px;
+    color: green;
+    font-weight: 500;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.card-container .btn button {
+    padding: 0.5rem;
+    width: 16rem;
+    background: #5ADEFF;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    color: black;
+}
+
+.btn button a {
+    color: black;
+}
+
+.btn button:hover {
+    background: rgb(19, 19, 221);
+    color: #fff !important;
+}
+
+.card-container .btn button {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ai {
+    color: green;
+    font-size: 15px;
+}
+
+.ai1 {
+    color: red;
+    font-size: 15px;
+}
+
+.a {
+    color: black;
+}

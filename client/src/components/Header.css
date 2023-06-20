@@ -1,0 +1,22 @@
+.jos {
+    font-size: 35px;
+    font-weight: bolder !important;
+    transform: translateY(-50%);
+    background: linear-gradient(to right, #fff, #2196f3, #ff00eb, #ffeb07);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logout {
+    font-size: 30px;
+    color: red;
+    transform: rotate(-90deg);
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.logout1 {
+    color: blue;
+    font-size: 20px;
+    margin-right: 20px;
+}
